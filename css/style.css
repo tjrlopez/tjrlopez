@@ -1,0 +1,19 @@
+.sec1 {
+    background-image: url(../img/hp4.JPG);
+
+    background-repeat:repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    min-height: 100vh;
+    font-family: 'Lobster', cursive;  
+}
+
+.sec2 {
+    background-image: url("https://www.jmbfinmgrs.com/sites/default/files/users/jmbfinmgrs/comprehensive-financial-planning.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
