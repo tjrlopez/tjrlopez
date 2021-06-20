@@ -1,7 +1,6 @@
 .sec1 {
-    background-image: url(../img/hp4.JPG);
-
-    background-repeat:repeat;
+    background-image: url(../img/hp5.JPG);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -10,10 +9,44 @@
 }
 
 .sec2 {
-    background-image: url("https://www.jmbfinmgrs.com/sites/default/files/users/jmbfinmgrs/comprehensive-financial-planning.jpeg");
+    background-image: url("../img/hp5.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     background-attachment: fixed;
+
+}
+
+
+#section6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.137);
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.747);
+    color: rgb(0, 0, 0);
+    padding: 10%;
+}
+
+.transparent:hover {
+    background-color: #1a2c6bb4;
+}
+
+.card-body {
+    color: #1a2b6b;
+    text-align: center;
+}
+
+h1 {
+    color: #1a2b6b;
+}
+
+ul {
+    list-style: none;
+    color: limegreen;
 }
