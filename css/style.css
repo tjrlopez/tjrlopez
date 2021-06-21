@@ -18,7 +18,6 @@
 
 }
 
-
 #section6 {
     display: flex;
     flex-direction: row;
@@ -34,7 +33,7 @@
 }
 
 .transparent:hover {
-    background-color: #1a2c6bb4;
+    background-color: #6679beb4;
 }
 
 .card-body {
@@ -46,7 +45,15 @@ h1 {
     color: #1a2b6b;
 }
 
+h2 {
+    color: #1a2b6b;
+}
+
+p {
+    color: #1a2b6b;
+}
+
 ul {
     list-style: none;
-    color: limegreen;
 }
+
