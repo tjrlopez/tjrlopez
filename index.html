@@ -19,7 +19,6 @@
     <title>Investments</title>
   </head>
   <body>
-    <nav class="container">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#"><img src="./img/logo.png" width="50" height="50" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +42,13 @@
                 <a class="dropdown-item" href="#">Equity (Stocks)</a>
                 <a class="dropdown-item" href="#">Alternative Assets</a>
               </div>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">Home</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Home</a>
+                  <a class="dropdown-item" href="#">About</a>
+                  <a class="dropdown-item" href="#">Contact</a>
+                </div>
             <!-- <ul>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pen to paper, create a plan</a>
@@ -80,7 +86,6 @@
         </ul>
       </div>
     </nav>
-  </nav>
 
     <div id="section1"class="jumbotron jumbotron-fluid m-0 sec1">
       <div class="container custom-box">    
@@ -101,6 +106,7 @@
         </div>
       </div>
     </div>
+
     <section class="container pb-5">
       <div class="row">
         <div class="card-deck">
@@ -138,19 +144,68 @@
           </div>
         </div>                         
      </div>
-  </section>
+    </section>
 
+  <div class="container ">
+    <div class="row justify-content-center">
+      <div class="col-6">      
+        <form>
+          <h2>Contact Us</h2>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">First Name</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Last Name</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>       
+      </div>
+    </div>
+  </div>
+  <b></b>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div id="section6"class="jumbotron jumbotron-fluid my-0 sec6">
+          <div>
+          <a href=">https://twitter.com/"target="blank"> <i class="fab fa-twitter pr-1 icon"></i></a>
+          <a href="https://business.instagram.com/getting-started"target="blank"> <i class="fab fa-instagram pr-1"></i></a>  
+          <a href=">https://www.facebook.com/business"target="blank">  <i class="fab fa-facebook-square"></i></a> 
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <div id="section6"class="jumbotron jumbotron-fluid my-0 sec6">
-      <div>
-        <h2>CONTACT</h2>
-      <a href=">https://twitter.com/"target="blank"> <i class="fab fa-twitter pr-1 icon"></i></a>
-      <a href="https://business.instagram.com/getting-started"target="blank"> <i class="fab fa-instagram pr-1"></i></a>  
-      <a href=">https://www.facebook.com/business"target="blank">  <i class="fab fa-facebook-square"></i></a> 
-      <p>&#169 Untitled Design templated. Images: Unsplash</p>   
-    </div>       
-  </div>    
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

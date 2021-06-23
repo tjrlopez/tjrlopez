@@ -19,7 +19,7 @@
 }
 
 #section6 {
-    display: flex;
+    display: grid;
     flex-direction: row;
     justify-content: center;
     text-align: center;
@@ -39,6 +39,11 @@
 .card-body {
     color: #1a2b6b;
     text-align: center;
+}
+
+.btn-primary {
+    background-color: #1a2b6b!important;
+    border-color: #1a2b6b!important;
 }
 
 h1 {
